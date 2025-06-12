@@ -1,0 +1,81 @@
+html, body {
+    background: linear-gradient(120deg, #d4fc79, #96e6a1);
+    font-family: 'Segoe UI', sans-serif;
+    animation: gradientShift 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.title {
+    text-align: center;
+    font-size: 3.2rem;
+    color: #1b5e20;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.sub {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #33691e;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.result {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    border-left: 5px solid #2e7d32;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.stButton>button {
+    background-color: #43a047;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    padding: 0.6rem 1.5rem;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #2e7d32;
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+.uploaded-img {
+    border-radius: 15px;
+    margin-top: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-10px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #2e7d32;
+    animation: fadeIn 2s ease-in-out;
+}

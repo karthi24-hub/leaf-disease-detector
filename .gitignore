@@ -1,0 +1,10 @@
+*.h5
+*.pt
+*.pkl
+*.jpg
+*.jpeg
+*.png
+*.ipynb_checkpoints/
+__pycache__/
+*.DS_Store
+*.pyc
