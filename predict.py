@@ -3,8 +3,10 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import os
 
-MODEL_PATH = "Z:\projects\leaf_disease_detector\saved_model\plant_disease_model.h5"
-CLASS_NAMES_PATH = "Z:\projects\leaf_disease_detector\saved_model\class_names.txt"
+# Use relative paths based on the current script directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "saved_model", "plant_disease_model.h5")
+CLASS_NAMES_PATH = os.path.join(BASE_DIR, "saved_model", "class_names.txt")
 
 # Load model and class names once
 model = load_model(MODEL_PATH)

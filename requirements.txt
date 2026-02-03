@@ -1,2 +1,5 @@
 pillow
 streamlit
+numpy
+pandas
+tensorflow
