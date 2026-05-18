@@ -22,6 +22,7 @@ An AI-powered web application built with **Streamlit** to detect and classify pl
 - Architecture: Custom CNN model
 - Classes: Tomato Leaf Diseases (e.g., Mosaic Virus, Bacterial Spot, etc.)
 - Preprocessed with data augmentation and normalization techniques
+- used deep neural network for anaylzing images aslo i done  this with esp 32 cam moduls by detcting the leaf with some colors
 
 ---
 
