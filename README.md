@@ -1,4 +1,4 @@
-# 🌿 Leaf Disease Detector it can detetct almost 15 types of plants
+# 🌿 Leaf Disease Detector it can detetct almost 15 types of plants !
 
 An AI-powered web application built with **Streamlit** to detect and classify plant leaf diseases using a Convolutional Neural Network (CNN). This tool is designed to help farmers and researchers identify plant health issues early with precision.
 
