@@ -50,4 +50,5 @@ git clone https://github.com/karthi24-hub/leaf-disease-detector.git
 cd leaf-disease-detector
 pip install -r requirements.txt
 streamlit run app.py
+once you run you can get the locoal host network
 
