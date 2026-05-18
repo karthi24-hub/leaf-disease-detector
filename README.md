@@ -53,3 +53,4 @@ pip install -r requirements.txt
 streamlit run app.py
 once you run you can get the locoal host network
 
+after that stream lit is ready and you can acces the project....!
